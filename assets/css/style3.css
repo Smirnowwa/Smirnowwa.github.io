@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding: 0;
+  list-style; none;
+  text-decoration: none;
+}
+
+.header{
+  width:100%;
+  height: 80px;
+  display: block;
+  background-color: #252525;
+}
+
+.innerheader{
+  width:1000px;
+  height: 100%;
+  display: block;
+  margin:0 auto;
+  color:#FF0000;
+}
+
+.logocontainer{
+  height: 100%;
+  display:table;
+  float:left;
+}
+
+.logocontainer h1{
+  height:100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Russo One', sans-serif;
+  font-size:32px;
+}
+
+.logocontainer h1 span{
+  font-weight: 400;
+  font-family: 'Russo One', sans-serif;
+}
+
+.navigation{
+  height: 100%;
+  float:right;
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float:left;
+  padding: 0px 20px;
+  color: #AF0404;
+}
+
+.navigation a:last-child{
+  padding-right: 0;
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  font-family: 'Russo One', sans-serif;
+  font-size: 16px;
+
+}
+
+.nav__link:hover{
+  color:gray;
+  text-decoration: none;
+
+}
+
+.maincomtainer{
+  background-image: url(../images/background3.jpg);
+    height:889px;
+
+}
+
+.text{
+  color:white;
+  font-size: 25px;
+  font-family: 'Russo One', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  position: relative;
+  top:180px;
+
+}
